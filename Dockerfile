@@ -1,4 +1,4 @@
-FROM python:latest-dev
+FROM python:latest
 ENV PATH="/app/venv/bin:$PATH"
 WORKDIR /app
 RUN python -m venv /app/venv
